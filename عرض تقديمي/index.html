@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#142c41">
+    <meta name="description" content="عرض تقديمي للمشاريع السبعة: مواقع تعريفية وخدمية ومتجر إلكتروني.">
+    <title>مشاريعي السبعة | عرض تقديمي</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="slides.js" defer></script>
+  </head>
+  <body>
+    <main class="presentation" aria-label="العرض التقديمي">
+      <div class="deck" id="slides">
+        <section class="slide intro-slide is-active" aria-labelledby="presentation-title">
+          <div class="slide__content intro-layout">
+            <div class="intro-copy">
+              <p class="eyebrow">عرض أكاديمي <span class="eyebrow__separator">/</span> مشاريع تطبيقية</p>
+              <h1 id="presentation-title">تصميم وتطوير<br><span>مواقع الويب</span></h1>
+              <p class="slide__description">يستعرض هذا العرض سبعة مشاريع تطبيقية متنوعة، مع التركيز على تنظيم المحتوى، ووضوح الواجهة، وملاءمة التصميم لطبيعة كل مشروع.</p>
+              <div class="intro-facts" aria-label="معلومات العرض">
+                <span><strong>07</strong> مشاريع</span>
+                <span><strong>07</strong> مجالات تطبيقية</span>
+                <span><strong>2026</strong> العام الدراسي</span>
+              </div>
+              <button class="intro-start" type="button" data-slide="1">ابدأ العرض <span aria-hidden="true">←</span></button>
+            </div>
+            <nav class="project-index" aria-label="اختر مشروعًا للانتقال إليه">
+              <h2>محتويات العرض</h2>
+              <p>اختر مشروعًا للانتقال مباشرة إلى ملخصه.</p>
+              <div class="project-index__grid">
+                <button class="project-choice" type="button" data-slide="1"><span>01</span><strong>الأمن السيبراني</strong><span aria-hidden="true">←</span></button>
+                <button class="project-choice" type="button" data-slide="2"><span>02</span><strong>الخدمات المحاسبية</strong><span aria-hidden="true">←</span></button>
+                <button class="project-choice" type="button" data-slide="3"><span>03</span><strong>الشحن والتوصيل</strong><span aria-hidden="true">←</span></button>
+                <button class="project-choice" type="button" data-slide="4"><span>04</span><strong>التسويق الإلكتروني</strong><span aria-hidden="true">←</span></button>
+                <button class="project-choice" type="button" data-slide="5"><span>05</span><strong>متجر لمسة ورد</strong><span aria-hidden="true">←</span></button>
+                <button class="project-choice" type="button" data-slide="6"><span>06</span><strong>مركز الشفاء الطبي</strong><span aria-hidden="true">←</span></button>
+                <button class="project-choice" type="button" data-slide="7"><span>07</span><strong>مكتب العدالة</strong><span aria-hidden="true">←</span></button>
+              </div>
+            </nav>
+          </div>
+        </section>
+        <section class="slide project-slide project-slide--cyber" aria-labelledby="project-cyber">
+          <div class="slide__content">
+            <p class="eyebrow">01 <span class="eyebrow__separator">/</span> الأمن السيبراني</p>
+            <div class="project-layout">
+              <div class="project-copy">
+                <h1 id="project-cyber">درع الأمن السيبراني</h1>
+                <p class="slide__description">موقع تعريفي تجريبي لخدمات التوعية والاستشارات ومراجعة ممارسات الأمن السيبراني للشركات.</p>
+                <ul class="project-points">
+                  <li>التوعية والتدريب الأمني</li>
+                  <li>استشارات الأمن السيبراني</li>
+                  <li>مراجعة المخاطر ضمن نطاق مصرّح به</li>
+                </ul>
+                <p class="project-note">المعلومات والخدمات في المشروع افتراضية، ولا تمثل جهة أمنية أو اعتمادًا مهنيًا.</p>
+              </div>
+              <aside class="project-panel" aria-label="هوية المشروع">
+                <img class="project-panel__image" src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="تصور بصري لشبكة رقمية وحماية المعلومات" fetchpriority="high">
+                <span class="project-mark" aria-hidden="true">⬡</span>
+                <span class="project-panel__label">CYBER SHIELD</span>
+                <span class="project-panel__caption">وعي · حماية · استمرارية</span>
+              </aside>
+            </div>
+          </div>
+        </section>
+        <section class="slide project-slide project-slide--accounting" aria-labelledby="project-accounting">
+          <div class="slide__content">
+            <p class="eyebrow">02 <span class="eyebrow__separator">/</span> خدمات محاسبية</p>
+            <div class="project-layout">
+              <div class="project-copy">
+                <h1 id="project-accounting">مكتب الميزان للخدمات المحاسبية</h1>
+                <p class="slide__description">موقع لمكتب يساعد أصحاب المنشآت والمتاجر على تنظيم الحسابات وفهم أرقام الأعمال.</p>
+                <ul class="project-points">
+                  <li>تنظيم السجلات والتقارير</li>
+                  <li>خدمات عملية للمنشآت الصغيرة والمتوسطة</li>
+                  <li>متابعة وتواصل مهني مباشر</li>
+                </ul>
+                <p class="project-note">المدينة غير محددة في بيانات المشروع، وتظهر كموضع يحتاج إلى استكمال.</p>
+              </div>
+              <aside class="project-panel" aria-label="هوية المشروع">
+                <img class="project-panel__image" src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="مستندات حسابية وآلة حاسبة على مكتب عمل" loading="lazy" decoding="async">
+                <span class="project-mark" aria-hidden="true">م</span>
+                <span class="project-panel__label">مكتب الميزان</span>
+                <span class="project-panel__caption">حسابات أوضح، وقرارات أكثر ثقة</span>
+              </aside>
+            </div>
+          </div>
+        </section>
+        <section class="slide project-slide project-slide--shipping" aria-labelledby="project-shipping">
+          <div class="slide__content">
+            <p class="eyebrow">03 <span class="eyebrow__separator">/</span> الشحن والتوصيل</p>
+            <div class="project-layout">
+              <div class="project-copy">
+                <h1 id="project-shipping">شركة الشحن والتوصيل</h1>
+                <p class="slide__description">موقع يعرض خدمات توصيل الطرود وطلبات المتاجر الإلكترونية والشركات في الرياض والمدن المجاورة.</p>
+                <ul class="project-points">
+                  <li>خدمات للأفراد والأعمال</li>
+                  <li>التعامل مع الطرود أثناء الاستلام والتوصيل</li>
+                  <li>حلول توصيل للمتاجر الإلكترونية</li>
+                </ul>
+                <p class="project-note">بيانات الاتصال والمعلومات المعروضة في الموقع تجريبية وقابلة للتغيير.</p>
+              </div>
+              <aside class="project-panel" aria-label="هوية المشروع">
+                <img class="project-panel__image" src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="طرود مرتبة في مستودع شحن وتجهيز" loading="lazy" decoding="async">
+                <span class="project-mark" aria-hidden="true">↗</span>
+                <span class="project-panel__label">الشحن والتوصيل</span>
+                <span class="project-panel__caption">شحنك بأمان، وتوصيلك بثقة</span>
+              </aside>
+            </div>
+          </div>
+        </section>
+        <section class="slide project-slide project-slide--marketing" aria-labelledby="project-marketing">
+          <div class="slide__content">
+            <p class="eyebrow">04 <span class="eyebrow__separator">/</span> التسويق الإلكتروني</p>
+            <div class="project-layout">
+              <div class="project-copy">
+                <h1 id="project-marketing">شركة التسويق الإلكتروني</h1>
+                <p class="slide__description">موقع لخدمات التسويق الرقمي وإنشاء المتاجر الإلكترونية، مع حضور رقمي يناسب أهداف المشروع.</p>
+                <ul class="project-points">
+                  <li>إدارة الحملات الرقمية</li>
+                  <li>إنشاء المتاجر الإلكترونية</li>
+                  <li>ترتيب الخدمات وفق نشاط المشروع وجمهوره</li>
+                </ul>
+                <p class="project-note">المدينة غير محددة في بيانات المشروع، وتظهر كموضع يحتاج إلى استكمال.</p>
+              </div>
+              <aside class="project-panel" aria-label="هوية المشروع">
+                <img class="project-panel__image" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="لوحة بيانات رقمية لمتابعة أداء الأعمال والتسويق" loading="lazy" decoding="async">
+                <span class="project-mark" aria-hidden="true">↗</span>
+                <span class="project-panel__label">التسويق الرقمي</span>
+                <span class="project-panel__caption">نحو حضور رقمي أوضح</span>
+              </aside>
+            </div>
+          </div>
+        </section>
+        <section class="slide project-slide project-slide--flowers" aria-labelledby="project-flowers">
+          <div class="slide__content">
+            <p class="eyebrow">05 <span class="eyebrow__separator">/</span> متجر هدايا</p>
+            <div class="project-layout">
+              <div class="project-copy">
+                <h1 id="project-flowers">لمسة ورد</h1>
+                <p class="slide__description">واجهة متجر تعرض العطور وباقات الورود والهدايا للمناسبات والأعياد والأيام المميزة.</p>
+                <ul class="project-points">
+                  <li>تشكيلة من العطور والورود والهدايا</li>
+                  <li>أفكار وتنسيقات للمناسبات</li>
+                  <li>الاستفسار عن المنتجات وتخصيص الهدايا</li>
+                </ul>
+                <p class="project-note">المنتجات والأسعار تجريبية، والموقع واجهة عرض لا تتضمن شراءً أو دفعًا فعليًا.</p>
+              </div>
+              <aside class="project-panel" aria-label="هوية المشروع">
+                <img class="project-panel__image" src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="باقة زهور بألوان ناعمة لتقديمها هدية" loading="lazy" decoding="async">
+                <span class="project-mark" aria-hidden="true">♡</span>
+                <span class="project-panel__label">لمسة ورد</span>
+                <span class="project-panel__caption">عطر يعبّر عنك، وورد يصنع لحظتك</span>
+              </aside>
+            </div>
+          </div>
+        </section>
+        <section class="slide project-slide project-slide--medical" aria-labelledby="project-medical">
+          <div class="slide__content">
+            <p class="eyebrow">06 <span class="eyebrow__separator">/</span> رعاية صحية</p>
+            <div class="project-layout">
+              <div class="project-copy">
+                <h1 id="project-medical">مركز الشفاء الطبي</h1>
+                <p class="slide__description">موقع تعريفي ينظم معلومات الأقسام والخدمات، ويسهّل التواصل والاستفسار للأفراد والعائلات.</p>
+                <ul class="project-points">
+                  <li>عرض معلومات الأقسام والخدمات</li>
+                  <li>قنوات للتواصل والاستفسار</li>
+                  <li>تنظيم معلومات ساعات العمل</li>
+                </ul>
+                <p class="project-note">بيانات المركز والأقسام والخدمات افتراضية، ويلزم التحقق منها قبل النشر.</p>
+              </div>
+              <aside class="project-panel" aria-label="هوية المشروع">
+                <img class="project-panel__image" src="https://images.unsplash.com/photo-1622902046580-2b47f47f5471?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="طبيبة تتحدث مع مريضة في بيئة رعاية صحية" loading="lazy" decoding="async">
+                <span class="project-mark" aria-hidden="true">✚</span>
+                <span class="project-panel__label">مركز الشفاء الطبي</span>
+                <span class="project-panel__caption">رعايتك الصحية أولويتنا</span>
+              </aside>
+            </div>
+          </div>
+        </section>
+        <section class="slide project-slide project-slide--law" aria-labelledby="project-law">
+          <div class="slide__content">
+            <p class="eyebrow">07 <span class="eyebrow__separator">/</span> خدمات قانونية</p>
+            <div class="project-layout">
+              <div class="project-copy">
+                <h1 id="project-law">مكتب العدالة للمحاماة والاستشارات القانونية</h1>
+                <p class="slide__description">موقع تعريفي افتراضي يستعرض خدمات قانونية نموذجية للأفراد والشركات.</p>
+                <ul class="project-points">
+                  <li>استشارات قانونية عامة</li>
+                  <li>مراجعة وصياغة العقود</li>
+                  <li>معلومات وإرشادات قانونية عامة</li>
+                </ul>
+                <p class="project-note">المكتب والخدمات افتراضية، ولا يؤكد الموقع وجود مكتب مرخص أو تقديم خدمات فعلية.</p>
+              </div>
+              <aside class="project-panel" aria-label="هوية المشروع">
+                <img class="project-panel__image" src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="كتب قانونية وميزان عدالة في مكتب" loading="lazy" decoding="async">
+                <span class="project-mark" aria-hidden="true">§</span>
+                <span class="project-panel__label">مكتب العدالة</span>
+                <span class="project-panel__caption">العدالة أساس الثقة، والحقوق أمانة</span>
+              </aside>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="slide-counter" aria-live="polite" aria-atomic="true">
+        <span id="current-slide">1</span>
+        <span class="slide-counter__divider" aria-hidden="true">/</span>
+        <span id="total-slides">1</span>
+        <span class="sr-only">الشريحة الحالية من إجمالي الشرائح</span>
+      </div>
+
+      <nav class="controls" aria-label="التنقل بين الشرائح">
+        <button class="control-button" id="previous-slide" type="button" aria-label="الشريحة السابقة" disabled>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+          <span>السابق</span>
+        </button>
+        <button class="control-button control-button--primary" id="next-slide" type="button" aria-label="الشريحة التالية" disabled>
+          <span>التالي</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+      </nav>
+
+      <div class="progress-track" role="progressbar" aria-label="تقدم العرض" aria-valuemin="0" aria-valuemax="1" aria-valuenow="1">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+    </main>
+  </body>
+</html>
